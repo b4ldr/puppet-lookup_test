@@ -9,8 +9,8 @@ before_install:
 script:
   - 'bundle exec rake spec'
 bundler_args: --without system_tests
-  rvm:
-    2.3
+rvm:
+  - 2.3
 matrix:
   fast_finish: true
   include:
