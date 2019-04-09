@@ -1,0 +1,28 @@
+{
+  "name": "b4ldr-lookup_test",
+  "version": "0.1.0",
+  "author": "john bond",
+  "summary": "",
+  "license": "Apache-2.0",
+  "source": "",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "10"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.8.2 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.10.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#1.10.0",
+  "template-ref": "tags/1.10.0-0-gbba9ac3"
+}
